@@ -1,0 +1,163 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/playfair-display-v40-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/playfair-display-v40-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/playfair-display-v40-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/playfair-display-v40-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/playfair-display-v40-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* playfair-display-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/playfair-display-v40-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Playfair Display', sans-serif;
+  max-width: 1240px;
+  padding: 0, auto;
+  background-image: url('./assets/img/gra.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logobox-img{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-page{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.aslan{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  text-decoration: none;
+  list-style: none;
+  color: azure;
+}
+
+.paragh {
+  display: inline-block;
+  font-size: 20px;
+  color: #06372a;
+  position: relative;
+  transition: transform 0.3s ease, color 0.3s ease;
+  cursor: pointer;
+}
+
+/* Pseudo-element orqali noodity underline + spark effekt */
+.paragh::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  width: 0;
+  height: 3px;
+  background: linear-gradient(90deg, #06ffaa, #00ffff, #06ffaa);
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: width 0.4s ease, background 0.4s ease;
+}
+
+/* Hover effekt */
+.paragh:hover {
+  color: #ff6ec7;
+  transform: scale(1.05) rotate(-2deg); /* kichik rotation va kattalashish */
+}
+
+.paragh:hover::after {
+  width: 100%; /* underline kengayadi */
+  background: linear-gradient(90deg, #ff6ec7, #06ffaa, #00ffff, #ff6ec7);
+}
+
+
+
+a {
+  text-decoration: none !important;
+  color: rgb(6, 55, 42);
+  transition: color 0.3s ease, transform 0.3s ease;
+  display: inline-block; /* transform ishlashi uchun */
+}
+
+.aslan li {
+  position: relative;
+  list-style: none;
+}
+
+/* underline uchun pseudo-element */
+.aslan li::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(90deg, #06ffaa, #00ffff, #06ffaa);
+  border-radius: 2px;
+  transform: translateX(-50%);
+  transition: width 0.4s ease, background 0.4s ease;
+}
+
+/* hover: link rangi, kattalashish va qiyshayish */
+.aslan li:hover a {
+  color: #ff6ec7; /* yangi rang */
+  transform: scale(1.1) rotate(-2deg); /* kattalashish va qiyshayish */
+}
+
+/* hover: underline kengayadi */
+.aslan li:hover::after {
+  width: 100%;
+  background: linear-gradient(90deg, #ff6ec7, #06ffaa, #00ffff, #ff6ec7);
+}
