@@ -97,7 +97,6 @@ body{
   cursor: pointer;
 }
 
-/* Pseudo-element orqali noodity underline + spark effekt */
 .paragh::after {
   content: "";
   position: absolute;
@@ -111,24 +110,21 @@ body{
   transition: width 0.4s ease, background 0.4s ease;
 }
 
-/* Hover effekt */
 .paragh:hover {
   color: #ff6ec7;
-  transform: scale(1.05) rotate(-2deg); /* kichik rotation va kattalashish */
+  transform: scale(1.05) rotate(-2deg);
 }
 
 .paragh:hover::after {
-  width: 100%; /* underline kengayadi */
+  width: 100%;
   background: linear-gradient(90deg, #ff6ec7, #06ffaa, #00ffff, #ff6ec7);
 }
-
-
 
 a {
   text-decoration: none !important;
   color: rgb(6, 55, 42);
   transition: color 0.3s ease, transform 0.3s ease;
-  display: inline-block; /* transform ishlashi uchun */
+  display: inline-block;
 }
 
 .aslan li {
@@ -136,7 +132,6 @@ a {
   list-style: none;
 }
 
-/* underline uchun pseudo-element */
 .aslan li::after {
   content: "";
   position: absolute;
@@ -150,13 +145,12 @@ a {
   transition: width 0.4s ease, background 0.4s ease;
 }
 
-/* hover: link rangi, kattalashish va qiyshayish */
+
 .aslan li:hover a {
-  color: #ff6ec7; /* yangi rang */
-  transform: scale(1.1) rotate(-2deg); /* kattalashish va qiyshayish */
+  color: #ff6ec7; 
+  transform: scale(1.1) rotate(-2deg); 
 }
 
-/* hover: underline kengayadi */
 .aslan li:hover::after {
   width: 100%;
   background: linear-gradient(90deg, #ff6ec7, #06ffaa, #00ffff, #ff6ec7);
