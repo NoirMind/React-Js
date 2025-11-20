@@ -1,9 +1,11 @@
 import React from 'react'
 import LogoBox from './LogoBox.jsx'
+import CardBox from './CardBox.jsx'
 function App() {
   return (
     <div>
-      <LogoBox/>
+      <LogoBox title='Hello'/>
+      {/* <CardBox/> */}
     </div>
   )
 }
