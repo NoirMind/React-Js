@@ -1,6 +1,6 @@
 import React from 'react'
 
-function CardBox() {
+function MainButton() {
   return (
     <div className='bases'>
       
@@ -8,4 +8,4 @@ function CardBox() {
   )
 }
 
-export default CardBox
+export default MainButton

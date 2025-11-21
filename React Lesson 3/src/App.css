@@ -1,3 +1,8 @@
+@import "@flaticon/flaticon-uicons/css/all/all.css";
+
+
+
+
 /* playfair-display-regular - latin */
 @font-face {
   font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
@@ -46,7 +51,6 @@
   font-weight: 900;
   src: url('../fonts/playfair-display-v40-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 
 *{
   margin: 0;
@@ -104,7 +108,7 @@ body{
   bottom: 0;
   width: 0;
   height: 3px;
-  background: linear-gradient(90deg, #06ffaa, #00ffff, #06ffaa);
+  background: linear-gradient(90deg, #3e4945, #393b3b, #7d908a);
   border-radius: 2px;
   transform: translateX(-50%);
   transition: width 0.4s ease, background 0.4s ease;
