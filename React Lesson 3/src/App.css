@@ -1,7 +1,4 @@
-@import "@flaticon/flaticon-uicons/css/all/all.css";
-
-
-
+@import url("../node_modules/@flaticon/flaticon-uicons/css/all/all.css");
 
 /* playfair-display-regular - latin */
 @font-face {
@@ -58,15 +55,16 @@
   box-sizing: border-box;
 }
 
-body{
-  font-family: 'Playfair Display', sans-serif;
-  max-width: 1240px;
-  padding: 0, auto;
-  background-image: url('./assets/img/gra.jpg');
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-image: url('./assets/img/back.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
 
 .logobox-img{
   display: flex;
@@ -115,13 +113,13 @@ body{
 }
 
 .paragh:hover {
-  color: #ff6ec7;
+  color: #35434b;
   transform: scale(1.05) rotate(-2deg);
 }
 
 .paragh:hover::after {
   width: 100%;
-  background: linear-gradient(90deg, #ff6ec7, #06ffaa, #00ffff, #ff6ec7);
+  background: linear-gradient(90deg, #3e4945, #393b3b, #7d908a);
 }
 
 a {
@@ -143,7 +141,7 @@ a {
   bottom: -5px;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, #06ffaa, #00ffff, #06ffaa);
+  background: linear-gradient(90deg, #3e4945, #393b3b, #7d908a);
   border-radius: 2px;
   transform: translateX(-50%);
   transition: width 0.4s ease, background 0.4s ease;
@@ -151,11 +149,121 @@ a {
 
 
 .aslan li:hover a {
-  color: #ff6ec7; 
+  color: #35434b; 
   transform: scale(1.1) rotate(-2deg); 
 }
 
 .aslan li:hover::after {
   width: 100%;
-  background: linear-gradient(90deg, #ff6ec7, #06ffaa, #00ffff, #ff6ec7);
+  background: linear-gradient(90deg, #3e4945, #393b3b, #7d908a);
+}
+
+.bases{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.btn1{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 10px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.btn1:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.btnInput {
+  width: 450px;                
+  padding: 10px 15px;          
+  border: none;   
+  border-radius: 8px;          
+  font-size: 16px;
+  outline: none;               
+  transition: all 0.3s ease;   
+}
+
+.btnInput::placeholder {
+  color: #d8d8d8;                 
+}
+
+.btn2{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 10px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.btn2:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.btn3{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 10px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.btn3:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.btn4{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 10px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.btn4:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
 }
