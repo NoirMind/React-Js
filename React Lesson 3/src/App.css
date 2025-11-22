@@ -564,3 +564,9 @@ a {
   cursor: pointer;             
   transition: all 0.3s ease;
 }
+
+.shopBtn:hover {
+  background-color: #6b826f;
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
