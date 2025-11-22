@@ -10,11 +10,11 @@ function LogoBox() {
         <p className='paragh'>Kingdom</p>
         </div>
         <ul className='aslan'>
-            <li><a href="#">Home</a></li>
-        <li><a href="#">Contacts</a></li>
-        <li><a href="#">Location</a></li>
-        <li><a href="#">Prices</a></li>
-        <li><a href="#">About us</a></li>
+            <li><a href="#">Домой</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Локации</a></li>
+        <li><a href="#">Цены</a></li>
+        <li><a href="#">О нас</a></li>
         </ul>
     </div>
   )
