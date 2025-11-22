@@ -1,6 +1,6 @@
 import React from 'react'
 import warrior from "./assets/img/warrior.png";
-import gra from "./assets/img/back.jpg";
+import gra from "./assets/img/background.jpg";
 
 function LogoBox() {
   return (

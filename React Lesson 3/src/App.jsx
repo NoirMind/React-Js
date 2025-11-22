@@ -3,6 +3,7 @@ import LogoBox from './LogoBox.jsx'
 import MainButton from './MainButton.jsx'
 import ImgBox from './ImgBox.jsx'
 import MainBtns from './MainBtns.jsx'
+import Category from './Category.jsx'
 function App() {
   return (
     <div>
@@ -10,6 +11,7 @@ function App() {
       <MainButton/>
       <MainBtns/>
       <ImgBox/>
+      <Category/>
     </div>
   )
 }
