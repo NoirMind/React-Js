@@ -65,6 +65,13 @@ body {
   background-repeat: no-repeat;
 }
 
+.container {
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  height: 100vh;           
+}
+
 
 .logobox-img{
   display: flex;
@@ -269,17 +276,16 @@ a {
 }
 
 .LandingImgBox {
-  margin-top: 50px;
+  margin-top: -150px;
   position: relative;
-  width: 600px;
-  height: 500px;
+  width: 700px;        
+  height: 500px;       
   overflow: hidden;
   border-radius: 20px;
 
-  /* Картинка */
   background-size: cover;
   background-position: center;
-  transition: background-image 0.6s ease-in-out; /* Плавный переход */
+  transition: background-image 0.6s ease-in-out;
 }
 
 /* Кнопки left & right */
@@ -309,4 +315,144 @@ a {
 
 .slider-btn.right {
   right: 15px;
+}
+
+.mainbtn{
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.main-btn1{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 6px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.main-btn1:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.main-btn2{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 6px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.main-btn2:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.main-btn3{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 6px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.main-btn3:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.main-btn4{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 6px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.main-btn4:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.main-btn5{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 6px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.main-btn5:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
+}
+
+.main-btn1{
+  display: flex;               
+  align-items: center;         
+  gap: 10px;                  
+  
+  padding: 6px 20px;         
+  background-color: #d8d8d8;   
+  color: #fff;                 
+  border: none;              
+  border-radius: 8px;         
+  
+  font-size: 16px;            
+  cursor: pointer;             
+  
+  transition: all 0.3s ease;  
+}
+
+.main-btn1:hover {
+  background-color: #424544;   
+  transform: scale(1.05);      
 }
