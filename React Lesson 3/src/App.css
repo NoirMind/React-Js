@@ -501,19 +501,28 @@ a {
   transform: scale(1.05);      
 }
 
+.shop-boxes {
+  max-width: 950px;
+  margin: -100px auto 0 auto;
+  margin-top: -100px;
+  display: flex;
+  flex-wrap: wrap;       /* Мухим */
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+}
+
 .variant {
-  max-width: 200px;
-  height: 100%;
+  width: 200px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  font-family: 'Playfair Display' sans-serif;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-family: 'Playfair Display', sans-serif;
   border-radius: 20px;
   gap: 5px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
 
 
 .shop-img{
@@ -554,12 +563,4 @@ a {
   font-size: 16px;            
   cursor: pointer;             
   transition: all 0.3s ease;
-}
-
-.shop-boxes{
-  margin-top: -100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
 }
