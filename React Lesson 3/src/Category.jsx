@@ -10,7 +10,9 @@ import kurtka7 from "./assets/img/kurtka7.jpg";
 import kurtka8 from "./assets/img/kurtka8.jpg";
 import kurtka9 from "./assets/img/kurtka9.jpg";
 import kurtka10 from "./assets/img/kurtka10.jpg";
-import kurtka10 from "./assets/img/kurtka11.jpg";
+import kurtka11 from "./assets/img/kurtka11.jpg";
+import kurtka12 from "./assets/img/kurtka12.jpg";
+import kurtka13 from "./assets/img/kurtka13.jpg";
 
 function Category() {
   return (
@@ -97,18 +99,42 @@ function Category() {
         </div>
          <div className="variant">
             <img className='shop-img' src={kurtka11} alt="photo" style={{ width: "200px", height: "240px"}}/>
-            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
-            <p className='shop-p'>287 000</p>
+            <p className='shop-p-second'>Женские резиновые сапоги-челси. Стильные непромокаемые ботинки, полусапожки</p>
+            <p className='shop-p'>151 050</p>
             <p>⭐⭐⭐⭐</p>
-            <mark shop-mark>22900 сумм/мес</mark>
+            <mark shop-mark>11262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+            <img className='shop-img' src={kurtka12} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский Пуховик с чехлом SADO  Стильные непромокаемые весна-осень-зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
             <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
          <div className="variant">
-            <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/>
-            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
-            <p className='shop-p'>287 000</p>
+            <img className='shop-img' src={kurtka13} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский трико, оверсайз  Стильные непромокаемые непромокаемые зима</p>
+            <p className='shop-p'>359 100</p>
             <p>⭐⭐⭐⭐</p>
-            <mark shop-mark>22900 сумм/мес</mark>
+            <mark shop-mark>28262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+            <img className='shop-img' src={kurtka12} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский Пуховик с чехлом SADO  Стильные непромокаемые весна-осень-зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+            <img className='shop-img' src={kurtka12} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский Пуховик с чехлом SADO  Стильные непромокаемые весна-осень-зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
             <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
     </div>
