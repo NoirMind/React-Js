@@ -34,7 +34,8 @@ function ImgBox() {
       display: "flex",
       justifyContent: "center",
       alignItems: "center",
-      minHeight: "100vh"
+      minHeight: "100vh",
+      marginBottom: "-100px"
     }}>
       <div className="LandingImgBox" style={{
         position: "relative",
