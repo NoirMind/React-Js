@@ -9,6 +9,8 @@ import kurtka6 from "./assets/img/kurtka6.jpg";
 import kurtka7 from "./assets/img/kurtka7.jpg";
 import kurtka8 from "./assets/img/kurtka8.jpg";
 import kurtka9 from "./assets/img/kurtka9.jpg";
+import kurtka10 from "./assets/img/kurtka10.jpg";
+import kurtka10 from "./assets/img/kurtka11.jpg";
 
 function Category() {
   return (
@@ -79,22 +81,22 @@ function Category() {
         </div>
          <div className="variant">
             <img className='shop-img' src={kurtka9} alt="photo" style={{ width: "200px", height: "240px"}}/>
-            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
-            <p className='shop-p'>287 000</p>
+            <p className='shop-p-second'>Кроссовки мужские, весна-осень-зима, непромокаемые, размер 39-44, демисезонная</p>
+            <p className='shop-p'>158 000</p>
             <p>⭐⭐⭐⭐</p>
-            <mark shop-mark>22900 сумм/мес</mark>
+            <mark shop-mark>11970 сумм/мес</mark>
             <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
          <div className="variant">
-            <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/>
-            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
-            <p className='shop-p'>287 000</p>
+            <img className='shop-img' src={kurtka10} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Перчатки детские для девочки и мальчика Лабубу, 3-6 лет демисезонная</p>
+            <p className='shop-p'>33 100</p>
             <p>⭐⭐⭐⭐</p>
-            <mark shop-mark>22900 сумм/мес</mark>
+            <mark shop-mark>2290 сумм/мес</mark>
             <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
          <div className="variant">
-            <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <img className='shop-img' src={kurtka11} alt="photo" style={{ width: "200px", height: "240px"}}/>
             <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
             <p className='shop-p'>287 000</p>
             <p>⭐⭐⭐⭐</p>
