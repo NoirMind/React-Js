@@ -4,6 +4,7 @@ import MainButton from './MainButton.jsx'
 import ImgBox from './ImgBox.jsx'
 import MainBtns from './MainBtns.jsx'
 import Category from './Category.jsx'
+import MidText from './MidText.jsx'
 function App() {
   return (
     <div>
@@ -12,6 +13,7 @@ function App() {
       <MainBtns/>
       <ImgBox/>
       <Category/>
+      <MidText/>
     </div>
   )
 }
