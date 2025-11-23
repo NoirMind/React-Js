@@ -52,5 +52,9 @@
 
 ## 📂 Структура проекта
 
+👤 Автор
+
 Bekzod Iminjanov
-React Developer | IT Student | Frontend Enthusiast
+Frontend Developer (React)
+Student @ University of Business and Science
+IT Enthusiast | Future FullStack Engineer
