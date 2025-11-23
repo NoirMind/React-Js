@@ -1,16 +1,56 @@
-# React + Vite
+<h1 align="center">🛒 Landing Shop — Modern React Store</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+  <img src="./public/screenshot.png" width="800" alt="Landing Preview"/>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+  Стильный, минималистичный и удобный лендинг-магазин, созданный на основе React + Vite.  
+  Проект разработан с акцентом на чистый UI, удобство пользователя и плавные анимации.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Основные возможности
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✔️ Слайдер из 10 изображений  
+✔️ Плавные переключения (left/right)  
+✔️ Кнопка корзины (Font Awesome)  
+✔️ Hover-анимации карточек товаров  
+✔️ Единый минималистичный дизайн  
+✔️ Лёгкая адаптация под мобильные устройства  
+✔️ Лёгкая и быстрая сборка (Vite)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🎨 UI / UX особенности
+
+- 🎚 Карточки товаров получают тень и лёгкое увеличение при наведении  
+- 🖼 Слайдер работает плавно, без рывков  
+- 🌫 Кнопки навигации затемнены и аккуратно вписываются в фон  
+- ⚪ Фоновый цвет `#DCDCDC` делает сайт современным и воздушным  
+- 🎛 Минимализм в каждом элементе
+
+---
+
+## 🧩 Технологии
+
+| Технология | Использование |
+|-----------|---------------|
+| **React.js** | Основной UI |
+| **Vite** | Молниеносная сборка |
+| **CSS** | Индивидуальные стили |
+| **Font Awesome** | Иконка корзины |
+| **JavaScript ES6+** | Логика слайдера |
+| **Google Fonts / Local fonts** | Стильный текст |
+
+---
+
+## 📁 Структура проекта
+
+
+
+## 📂 Структура проекта
+
+Bekzod Iminjanov
+React Developer | IT Student | Frontend Enthusiast
