@@ -7,6 +7,7 @@ import Category from './Category.jsx'
 import MidText from './MidText.jsx'
 import HomeProducts from './HomeProducts.jsx'
 import Intro from './Intro.jsx'
+import HomeText from './HomeText.jsx'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Category/>
       <MidText/>
       <HomeProducts/>
+      <HomeText/>
     </div>
   )
 }
