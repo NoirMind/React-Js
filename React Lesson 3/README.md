@@ -1,7 +1,7 @@
 <h1 align="center">🛒 Landing Shop — Modern React Store</h1>
 
 <p align="center">
-  <img src="./public/screenshot.png" width="800" alt="Landing Preview"/>
+  <img src="./public/Screenshot_1.png" width="800" alt="Landing Preview"/>
 </p>
 
 <p align="center">
