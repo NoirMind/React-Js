@@ -8,6 +8,7 @@ import kurtka5 from "./assets/img/kurtka5.jpg";
 import kurtka6 from "./assets/img/kurtka6.jpg";
 import kurtka7 from "./assets/img/kurtka7.jpg";
 import kurtka8 from "./assets/img/kurtka8.jpg";
+import kurtka9 from "./assets/img/kurtka9.jpg";
 
 function Category() {
   return (
@@ -74,6 +75,38 @@ function Category() {
             <p className='shop-p'>168 000</p>
             <p>⭐⭐⭐⭐</p>
             <mark shop-mark>12 709сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka9} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
+            <p className='shop-p'>287 000</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>22900 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
+            <p className='shop-p'>287 000</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>22900 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
+            <p className='shop-p'>287 000</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>22900 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
+            <p className='shop-p'>287 000</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>22900 сумм/мес</mark>
             <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
     </div>
