@@ -7,7 +7,7 @@ function LogoBox() {
     <div className='main-page'>
         <div className="logobox-img">
             <img src={warrior} alt="logo" loading='lazy' width='60px' height='60px'/>
-        <p className='paragh'>Kingdom</p>
+        <p className='paragh'>KINGDOM MARKET</p>
         </div>
         <ul className='aslan'>
             <li><a href="#">Домой</a></li>
