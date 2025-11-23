@@ -502,8 +502,8 @@ a {
 }
 
 .shop-boxes {
-  max-width: 950px;
-  margin: -100px auto 0 auto;
+  max-width: 1200px;
+  margin: -150px auto 0 auto;
   margin-top: -100px;
   display: flex;
   flex-wrap: wrap;       /* Мухим */

@@ -62,6 +62,7 @@ function ImgBox() {
             borderRadius: "8px"
           }}
         >
+          
           ‹
         </button>
 

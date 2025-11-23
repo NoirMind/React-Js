@@ -8,6 +8,11 @@ import kurtka5 from "./assets/img/kurtka5.jpg";
 import kurtka6 from "./assets/img/kurtka6.jpg";
 import kurtka7 from "./assets/img/kurtka7.jpg";
 import kurtka8 from "./assets/img/kurtka8.jpg";
+import kurtka9 from "./assets/img/kurtka9.jpg";
+import kurtka10 from "./assets/img/kurtka10.jpg";
+import kurtka11 from "./assets/img/kurtka11.jpg";
+import kurtka12 from "./assets/img/kurtka12.jpg";
+import kurtka13 from "./assets/img/kurtka13.jpg";
 
 function Category() {
   return (
@@ -74,6 +79,62 @@ function Category() {
             <p className='shop-p'>168 000</p>
             <p>⭐⭐⭐⭐</p>
             <mark shop-mark>12 709сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka9} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Кроссовки мужские, весна-осень-зима, непромокаемые, размер 39-44, демисезонная</p>
+            <p className='shop-p'>158 000</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>11970 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka10} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Перчатки детские для девочки и мальчика Лабубу, 3-6 лет демисезонная</p>
+            <p className='shop-p'>33 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>2290 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka11} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женские резиновые сапоги-челси. Стильные непромокаемые ботинки, полусапожки</p>
+            <p className='shop-p'>151 050</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>11262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+            <img className='shop-img' src={kurtka12} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский Пуховик с чехлом SADO  Стильные непромокаемые весна-осень-зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+         <div className="variant">
+            <img className='shop-img' src={kurtka13} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский трико, оверсайз  Стильные непромокаемые непромокаемые зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+            <img className='shop-img' src={kurtka12} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский Пуховик с чехлом SADO  Стильные непромокаемые весна-осень-зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
+            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+            <img className='shop-img' src={kurtka12} alt="photo" style={{ width: "200px", height: "240px"}}/>
+            <p className='shop-p-second'>Женский Пуховик с чехлом SADO  Стильные непромокаемые весна-осень-зима</p>
+            <p className='shop-p'>359 100</p>
+            <p>⭐⭐⭐⭐</p>
+            <mark shop-mark>28262 сумм/мес</mark>
             <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
     </div>
