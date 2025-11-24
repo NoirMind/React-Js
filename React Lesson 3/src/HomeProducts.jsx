@@ -72,7 +72,7 @@ function HomeProducts() {
             </div>
             <div className="variant">
                 <img className='shop-img' src={divan8} alt="photo" style={{ width: "200px", height: "240px"}}/>
-                <p className='shop-p-second'>Полка для ванной комнаты, без сверления, с двойной липучкой,</p>
+                <p className='shop-p-second'>Полка для ванной комнаты, без сверления, с двойной ,</p>
                 <p className='shop-p'>23 040 сум</p>
                 <p>⭐⭐⭐⭐</p>
                 <mark shop-mark>1 700 сумм/мес</mark>
