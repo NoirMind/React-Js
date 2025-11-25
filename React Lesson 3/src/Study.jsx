@@ -7,6 +7,7 @@ import tel5 from "./assets/img/tel5.jpg";
 import tel6 from "./assets/img/tel6.jpg";
 import tel7 from "./assets/img/tel7.jpg";
 import tel8 from "./assets/img/tel8.jpg";
+import tel9 from "./assets/img/tel9.jpg";
 
 function Study() {
   return (
@@ -73,6 +74,14 @@ function Study() {
          <p className='shop-p'>1 410 220сум</p>
          <p>⭐⭐⭐⭐</p>
          <mark shop-mark>101 920сумм/мес</mark>
+         <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+         <img className='shop-img' src={tel9} alt="photo" style={{ width: "200px", height: "240px"}}/>
+         <p className='shop-p-second'>Смартфон Samsung Galaxy A17, 6.7" 90Гц экран, камера 50Мп, батарея 5000 мАч, беспроводная</p>
+         <p className='shop-p'>2 204 020сум</p>
+         <p>⭐⭐⭐⭐</p>
+         <mark shop-mark>159 304сумм/мес</mark>
          <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
     </div>
