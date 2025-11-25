@@ -642,3 +642,11 @@ a {
   align-items: center;
   gap: 500px;
 }
+
+.phone-textbox{
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 550px;
+}

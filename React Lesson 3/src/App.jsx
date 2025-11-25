@@ -9,6 +9,7 @@ import HomeProducts from './HomeProducts.jsx'
 import Intro from './Intro.jsx'
 import HomeText from './HomeText.jsx'
 import Study from './Study.jsx'
+import PhonesEnd from './PhonesEnd.jsx'
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
       <HomeProducts/>
       <HomeText/>
       <Study/>
+      <PhonesEnd/>
     </div>
   )
 }
