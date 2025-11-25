@@ -6,6 +6,7 @@ import tel4 from "./assets/img/tel4.jpg";
 import tel5 from "./assets/img/tel5.jpg";
 import tel6 from "./assets/img/tel6.jpg";
 import tel7 from "./assets/img/tel7.jpg";
+import tel8 from "./assets/img/tel8.jpg";
 
 function Study() {
   return (
@@ -64,6 +65,14 @@ function Study() {
          <p className='shop-p'>2 449 020сум</p>
          <p>⭐⭐⭐⭐</p>
          <mark shop-mark>172 012сумм/мес</mark>
+         <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+        </div>
+        <div className="variant">
+         <img className='shop-img' src={tel8} alt="photo" style={{ width: "200px", height: "240px"}}/>
+         <p className='shop-p-second'>Смартфон Tecno Spark 40C 4/128 GB, 6.67’, NFC, HD+ IPS экран, батарея 6000 мАч, беспроводная</p>
+         <p className='shop-p'>1 410 220сум</p>
+         <p>⭐⭐⭐⭐</p>
+         <mark shop-mark>101 920сумм/мес</mark>
          <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
         </div>
     </div>
