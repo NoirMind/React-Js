@@ -642,3 +642,203 @@ a {
   align-items: center;
   gap: 500px;
 }
+
+.phone-textbox{
+  margin-top: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 550px;
+}
+
+/* ============================
+   BASE
+============================= */
+
+.LandingImgBox {
+  display: flex;
+  gap: 20px;
+  width: 1200px;
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.LandingImgBox img {
+  width: 300px;
+  border-radius: 10px;
+}
+
+.mainbtn {
+  display: flex;
+  gap: 15px;
+}
+
+.mainbtn button {
+  padding: 12px 24px;
+  font-size: 18px;
+  border-radius: 8px;
+  border: none;
+  background: #c4ccc8;
+  color: white;
+  cursor: pointer;
+}
+
+/* Для планшетов */
+@media (max-width: 1024px) {
+  .main-page {
+    gap: 100px; /* уменьшаем отступы между блоками */
+    flex-direction: column; /* вертикальное расположение */
+  }
+
+  .aslan {
+    gap: 20px;
+  }
+
+  .LandingImgBox {
+    width: 90%;
+    height: 400px;
+    margin-top: -100px;
+  }
+
+  .shop-boxes, .home-boxes {
+    gap: 30px;
+    justify-content: center;
+  }
+
+  .home-textbox, .phone-textbox, .study-products {
+    gap: 200px;
+  }
+}
+
+/* Для мобильных телефонов */
+@media (max-width: 768px) {
+  .main-page {
+    gap: 50px;
+  }
+
+  .LandingImgBox {
+    display: none;
+  }
+
+  .mainbtn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 колонки */
+  gap: 20px; /* расстояние между кнопками */
+  justify-items: center; /* центрируем кнопки по горизонтали */
+  padding: 0 5px; /* отступ слева и справа по 5px */
+  box-sizing: border-box; /* чтобы padding учитывался внутри ширины */
+}
+
+  .aslan li {
+    font-size: 14px;
+  }
+
+  .shop-boxes, .home-boxes {
+    margin-top: -900px;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .home-textbox, .phone-textbox, .study-products {
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btnInput {
+    width: 90%;
+  }
+
+  .main-btn1, .main-btn2, .main-btn3, .main-btn4, .main-btn5, .main-btn6, .main-btn7 {
+    display: flex;
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+}
+
+/* Для очень маленьких экранов */
+@media (max-width: 480px) {
+  .paragh {
+    font-size: 18px;
+  }
+
+  .shop-img {
+    width: 150px;
+    height: 180px;
+  }
+
+  .shop-p-second {
+    font-size: 14px;
+  }
+
+  .home-btn {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
+.main-footer{
+  width: 100%;
+  background: #ebebeb;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 200px;
+}
+
+.main-footer-p {
+  padding: 18px 22px;
+  border-radius: 14px;
+  transition: all 0.25s ease;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; /* для эффекта наведения */
+}
+
+/* Hover активирует анимацию */
+.main-footer-p:hover {
+  animation: footerGlow 0.6s forwards;
+}
+
+/* Keyframes — движение и свет */
+@keyframes footerGlow {
+  0% {
+    box-shadow: 0 0 0 rgba(255,255,255,0);
+    transform: translateY(0);
+  }
+  40% {
+    box-shadow: 0 8px 25px rgba(255,255,255,0.15);
+    transform: translateY(-4px);
+  }
+  70% {
+    box-shadow: 0 12px 35px rgba(255,255,255,0.25);
+  }
+  100% {
+    box-shadow: 0 10px 30px rgba(255,255,255,0.18);
+  }
+}
+
+/* Пульсирующая светящаяся линия */
+.main-footer-p::after {
+  content: "";
+  position: absolute;
+  left: -100%;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    transparent,
+    rgba(255,255,255,0.2),
+    transparent
+  );
+  transition: 0.5s;
+}
+
+.main-footer-p:hover::after {
+  left: 100%;
+}
