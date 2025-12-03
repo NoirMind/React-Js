@@ -34,9 +34,9 @@ function Category({data}) {
                 style={{ width: "200px", height: "240px" }}
             />
             <p className='shop-p-second'>{item.title}</p>
-            <p className='shop-p'>{item.price} сум</p>
+            <p className='shop-p'>{Math.ceil(item.price * 1000)} сум</p>
             <p>⭐️⭐️⭐️⭐️</p>
-            <mark className='shop-mark'>{Math.floor(item.price / 12)} сум/мес</mark>
+            <mark className='shop-mark'>{Math.trunc((item.price * 1000) / 12)}сум/мес</mark>
             <button className="shopBtn">
                 <i className="fa-solid fa-bag-shopping"></i> Savat
             </button>
