@@ -1,16 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
+import { data } from 'react-router-dom'
 
+
+function Fetch() {
+    const [value, setValue] = useState()
+    const [allProduct, setProduct] = useState([])
+    useEffect(()=>{
+        fetch("https://dummyjson.com/products")
+        .then((res)=>res.json())
+        .then((data)=>{
+            setProduct(data.products)
+        })
+    }, [])
+
+    return (
+    <div>
+      <Category data={allProduct} />
+    </div>
+  );
+}
+
+export default Fetch
 
 function Category() {
   return (
     <div className='container shop-boxes'>
         <div className="variant">
-            {/* <img className='shop-img' src={kurtka} alt="photo" style={{ width: "200px", height: "240px"}}/> */}
-            <p className='shop-p-second'>Куртка теплая женская мужская unisex зимняя y2k корейский стиль иссиқ аёллар эркаклар</p>
-            <p className='shop-p'>287 000 сум</p>
-            <p>⭐⭐⭐⭐</p>
-            <mark shop-mark>22900 сумм/мес</mark>
-            <button class="shopBtn"><i class="fa-solid fa-bag-shopping"></i>Savat</button>
+            
         </div>
     </div>
   )
