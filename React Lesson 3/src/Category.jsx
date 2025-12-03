@@ -20,16 +20,32 @@ function Fetch() {
   );
 }
 
-export default Fetch
 
-function Category() {
+function Category({data}) {
   return (
     <div className='container shop-boxes'>
-        <div className="variant">
-            
+        {data.map((item) => {
+    return (
+        <div key={item.id} className='product'>
+            <img
+                className='shop-img'
+                src={item.thumbnail}
+                alt={item.title}
+                style={{ width: "200px", height: "240px" }}
+            />
+            <p className='shop-p-second'>{item.title}</p>
+            <p className='shop-p'>{item.price} сум</p>
+            <p>⭐️⭐️⭐️⭐️</p>
+            <mark className='shop-mark'>{Math.floor(item.price / 12)} сум/мес</mark>
+            <button className="shopBtn">
+                <i className="fa-solid fa-bag-shopping"></i> Savat
+            </button>
         </div>
+    )
+})}
+
     </div>
   )
 }
 
-export default Category
+export default Fetch;
